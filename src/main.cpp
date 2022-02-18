@@ -18,7 +18,7 @@ int currentState;    // the current reading from the input pin
 unsigned long pressedTime = 0;
 unsigned long releasedTime = 0;
 
-const char *UBIDOTS_TOKEN = "BBFF-aouYy7jYZKY8SoHbJpbulHKYVptNm0"; // Put here your Ubidots TOKEN
+const char *UBIDOTS_TOKEN = ""; // Put here your Ubidots TOKEN
 const char *DEVICE_LABEL = "esp32";                                // Put here your Device label to which data  will be published
 const char *VARIABLE_LABEL = "temp";                               // Put here your Variable label to which data  will be published
 
